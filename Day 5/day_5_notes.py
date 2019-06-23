@@ -27,7 +27,7 @@ numbers = [13, 123, 333, 423, 2341]
 
 total = sum(numbers)
 average = total/len(numbers) #rounded
-average_abs = total/(len(numbers) * 1.0)
+average_abs = total/(len(numbers) * 1.0)  ##it will give you value in float datatype
 average_abs_2 = sum(numbers)/float(len(numbers))
 
 
